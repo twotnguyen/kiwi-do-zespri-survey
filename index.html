@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a1565b">
+  <title>Khảo sát Kiwi đỏ Zespri</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="statistics.css">
+  <script src="questions.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="csv-data.js" defer></script>
+  <script src="statistics.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <div class="banner" aria-hidden="true">
+      <div class="banner-copy">Kiwi đỏ<span>Một sắc màu. Nhiều trải nghiệm.</span></div>
+      <div class="kiwi kiwi-back"></div><div class="kiwi kiwi-front"></div>
+    </div>
+    <header class="card intro">
+      <h1 id="survey-title"></h1>
+      <p class="demo-note"><strong>Dữ liệu thống kê mô phỏng:</strong> 502 dòng đã được tạo theo phân bố mục tiêu để minh họa và kiểm thử. Đây không phải kết quả khảo sát thực tế.</p>
+      <div id="survey-description">
+        <div id="introduction"></div>
+        <p class="demo-note">Bản mô phỏng độc lập · Không gửi dữ liệu đến Google Forms. Câu trả lời chỉ được giữ trong trang đang mở.</p>
+        <p class="required-note"><span aria-hidden="true">*</span> Biểu thị câu hỏi bắt buộc</p>
+      </div>
+    </header>
+    <div class="tabs" role="tablist" aria-label="Nội dung khảo sát">
+      <button type="button" id="questions-tab" class="tab" role="tab" aria-selected="true" aria-controls="questions-panel">Câu hỏi</button>
+      <button type="button" id="statistics-tab" class="tab" role="tab" aria-selected="false" aria-controls="statistics-panel" tabindex="-1">Thống kê <span id="response-badge" class="response-badge"></span></button>
+      <button type="button" id="clean-tab" class="tab" role="tab" aria-selected="false" aria-controls="clean-panel" tabindex="-1">Thống kê 393 mẫu <span id="clean-badge" class="response-badge"></span></button>
+    </div>
+    <div id="questions-panel" role="tabpanel" aria-labelledby="questions-tab">
+    <form id="survey-form" novalidate>
+      <div id="sections"></div>
+      <p id="validation-summary" class="validation-summary" role="alert"></p>
+      <div class="actions">
+        <button type="submit" class="button primary">Hoàn thành</button>
+        <button type="button" id="clear" class="text-button">Xóa hết câu trả lời</button>
+      </div>
+    </form>
+    <section id="success" class="card success" aria-labelledby="success-title" tabindex="-1" hidden>
+      <div class="check" aria-hidden="true">✓</div>
+      <h2 id="success-title">Cảm ơn bạn đã hoàn thành khảo sát!</h2>
+      <p>Bạn đã trả lời đầy đủ 21 câu hỏi trong bản mô phỏng. Câu trả lời chưa được gửi đến Google Forms hoặc máy chủ nào.</p>
+      <button type="button" id="restart" class="button primary">Làm lại khảo sát</button>
+    </section>
+    </div>
+    <section id="statistics-panel" role="tabpanel" aria-labelledby="statistics-tab" hidden>
+      <div class="card statistics-overview">
+        <h2 id="response-total">Thống kê từ CSV</h2>
+        <p>Tóm tắt câu trả lời</p>
+        <p id="sync-status" class="statistics-meta" role="status">Đang đọc dữ liệu CSV…</p>
+        <p id="response-dates" class="statistics-meta"></p>
+        <p class="statistics-meta">Thống kê toàn bộ phản hồi trong CSV, không lọc theo câu hỏi sàng lọc. Không bao gồm lượt điền thử trên website.</p>
+        <p class="statistics-meta">CSV có đủ điểm mô phỏng cho 15 câu Phần 3 theo phân bố mục tiêu; câu giới tính gồm Nam và Nữ; câu thu nhập đã bổ sung lựa chọn Trên 40 triệu đồng theo form hiện tại. <a href="PHAN-BO-DU-LIEU-MO-PHONG.md">Xem phân bố chi tiết</a>. Đây không phải kết quả khảo sát thực tế.</p>
+        <details class="source-details">
+          <summary>Nguồn dữ liệu</summary>
+          <p id="response-source"></p>
+          <p>CSV có cột “Loại dữ liệu” đánh dấu “Mô phỏng”. Dấu thời gian từ 12 đến 22/10/2026 được tạo mô phỏng với khoảng cách không đều, không phải thời điểm thu thập khảo sát thực tế. <a href="PHAN-BO-DU-LIEU-MO-PHONG.md">Xem bảng phân bố và nguồn gốc dữ liệu</a>.</p>
+          <p>Website đọc lại CSV mỗi 5 giây và tự cập nhật biểu đồ khi nội dung file thay đổi. Cần mở website qua HTTP, ví dụ http://localhost:8080. Không đồng bộ với Google Forms.</p>
+        </details>
+      </div>
+      <div id="statistics-charts"></div>
+    </section>
+    <section id="clean-panel" role="tabpanel" aria-labelledby="clean-tab" hidden>
+      <div class="card statistics-overview">
+        <h2 id="clean-total">Thống kê mẫu sạch</h2>
+        <p>Thống kê các mẫu đạt cả hai câu sàng lọc (sống tại TP. Hồ Chí Minh và có mua trái cây tươi nhập khẩu trong 3 tháng gần đây), dùng cho phân tích. Đây không phải kết quả khảo sát thực tế.</p>
+        <p id="clean-sync-status" class="statistics-meta" role="status">Đang đọc dữ liệu CSV…</p>
+        <p id="clean-dates" class="statistics-meta"></p>
+        <details class="source-details">
+          <summary>Nguồn dữ liệu</summary>
+          <p id="clean-source"></p>
+        </details>
+      </div>
+      <div id="clean-charts"></div>
+    </section>
+    <footer>
+      <p>Không cung cấp mật khẩu hoặc thông tin nhạy cảm qua biểu mẫu.</p>
+      <p>Bản mô phỏng khảo sát Kiwi đỏ Zespri · TP. Hồ Chí Minh</p>
+      <a href="CAU-HOI.md" download>Tải nội dung câu hỏi (.md)</a>
+    </footer>
+    <noscript><p class="card">Vui lòng bật JavaScript để sử dụng biểu mẫu, hoặc đọc câu hỏi trong file <a href="CAU-HOI.md">CAU-HOI.md</a>.</p></noscript>
+  </main>
+</body>
+</html>

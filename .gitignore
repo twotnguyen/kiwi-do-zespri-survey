@@ -1,0 +1,8 @@
+# Tài liệu khóa luận và bản nháp: không đưa lên repo công khai
+*.docx
+*.xlsx
+Khóa luận*
+Chương 1+2*
+CAP-NHAT-BIEU-MAU.md
+CAU-HOI-PHAN-3-DE-XUAT.md
+.DS_Store
