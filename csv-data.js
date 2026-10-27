@@ -1,5 +1,5 @@
-const csvSource = 'test 1 (Câu trả lời) - Câu trả lời biểu mẫu 1.csv';
-const cleanCsvSource = '393 mẫu sạch - Câu trả lời biểu mẫu 1.csv';
+const csvSource = 'du-lieu-502-luot.csv';
+const cleanCsvSource = 'du-lieu-393-mau-sach.csv';
 
 // Hỗ trợ BOM, CRLF/LF, dấu phẩy và xuống dòng trong dấu ngoặc kép,
 // cũng như dấu ngoặc kép được escape theo chuẩn CSV bằng hai dấu "".
