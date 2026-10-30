@@ -85,7 +85,7 @@ Dùng để tạo dữ liệu **mô phỏng riêng**, giữ nguyên dữ liệu 
 
 ### Trải nghiệm Omnichannel (OC)
 
-### 11. Tôi cảm thấy yên tâm khi giá và thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.
+### 11. Tôi cảm thấy yên tâm khi thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.
 
 - 1 — Hoàn toàn không đồng ý: 3%
 - 2 — Không đồng ý: 5%
@@ -93,7 +93,7 @@ Dùng để tạo dữ liệu **mô phỏng riêng**, giữ nguyên dữ liệu 
 - 4 — Đồng ý: 41,8%
 - 5 — Hoàn toàn đồng ý: 39,4%
 
-### 12. Giao hàng nhanh trong 2 giờ sẽ giúp tôi yên tâm về độ tươi ngon của quả, không bị dập hỏng do thịt quả mềm.
+### 12. Tôi cảm thấy yên tâm về độ tươi ngon của Kiwi đỏ khi đặt mua trên website/app và được giao trong vòng 2 giờ.
 
 - 1 — Hoàn toàn không đồng ý: 3,5%
 - 2 — Không đồng ý: 4,5%
@@ -109,7 +109,7 @@ Dùng để tạo dữ liệu **mô phỏng riêng**, giữ nguyên dữ liệu 
 - 4 — Đồng ý: 42,6%
 - 5 — Hoàn toàn đồng ý: 39,6%
 
-### 14. Tôi thấy dễ dàng mua Kiwi đỏ ngay sau khi xem thông tin trên mạng xã hội.
+### 14. Tôi thấy dễ dàng chuyển từ xem quảng cáo Kiwi đỏ trên mạng xã hội sang đặt mua trực tiếp trên ứng dụng hoặc mua tại siêu thị.
 
 - 1 — Hoàn toàn không đồng ý: 5,2%
 - 2 — Không đồng ý: 5,8%

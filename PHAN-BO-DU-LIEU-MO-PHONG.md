@@ -131,7 +131,7 @@ Số câu trả lời có dữ liệu: **502 / 502**.
 
 Điểm trung bình: **3.43 / 5**.
 
-## 11. Tôi cảm thấy yên tâm khi giá và thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.
+## 11. Tôi cảm thấy yên tâm khi thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.
 
 Số câu trả lời có dữ liệu: **502 / 502**.
 
@@ -145,7 +145,7 @@ Số câu trả lời có dữ liệu: **502 / 502**.
 
 Điểm trung bình: **4.10 / 5**.
 
-## 12. Giao hàng nhanh trong 2 giờ sẽ giúp tôi yên tâm về độ tươi ngon của quả, không bị dập hỏng do thịt quả mềm.
+## 12. Tôi cảm thấy yên tâm về độ tươi ngon của Kiwi đỏ khi đặt mua trên website/app và được giao trong vòng 2 giờ.
 
 Số câu trả lời có dữ liệu: **502 / 502**.
 
@@ -173,7 +173,7 @@ Số câu trả lời có dữ liệu: **502 / 502**.
 
 Điểm trung bình: **4.12 / 5**.
 
-## 14. Tôi thấy dễ dàng mua Kiwi đỏ ngay sau khi xem thông tin trên mạng xã hội.
+## 14. Tôi thấy dễ dàng chuyển từ xem quảng cáo Kiwi đỏ trên mạng xã hội sang đặt mua trực tiếp trên ứng dụng hoặc mua tại siêu thị.
 
 Số câu trả lời có dữ liệu: **502 / 502**.
 

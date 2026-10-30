@@ -8,7 +8,7 @@ Biểu mẫu hiện có **21 câu hỏi bắt buộc**, chia thành **3 phần**
 
 Xin chào bạn!
 
-Mình hiện đang thực hiện khóa luận tốt nghiệp với đề tài nghiên cứu về ý định mua sắm đa kênh đối với sản phẩm Kiwi đỏ (RubyRed) của nhãn hàng Zespri tại TP. Hồ Chí Minh. Khảo sát được thực hiện nhằm tìm hiểu nhận thức của người tiêu dùng về đặc tính sản phầm, trải nghiệm mua sắm đa kênh, cảm nhận về tính khan hiếm và ý định mua sản phẩm.
+Mình hiện đang thực hiện khóa luận tốt nghiệp với đề tài nghiên cứu về ý định mua sắm đa kênh đối với sản phẩm Kiwi đỏ (RubyRed) của nhãn hàng Zespri tại TP. Hồ Chí Minh. Khảo sát được thực hiện nhằm tìm hiểu nhận thức của người tiêu dùng về đặc tính sản phẩm, trải nghiệm mua sắm đa kênh, cảm nhận về tính khan hiếm và ý định mua sản phẩm.
 
 Khảo sát chỉ phục vụ mục đích nghiên cứu học thuật. Các câu trả lời sẽ được tổng hợp và bảo mật, không sử dụng để xác định danh tính cá nhân. Rất mong bạn dành ít phút để hoàn thành bảng hỏi.
 
@@ -96,13 +96,13 @@ Không có câu trả lời đúng hay sai, mọi ý kiến của bạn đề c�
 
 ### Trải nghiệm Omnichannel (OC)
 
-**11.** Tôi cảm thấy yên tâm khi giá và thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.
+**11.** Tôi cảm thấy yên tâm khi thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.
 
-**12.** Giao hàng nhanh trong 2 giờ sẽ giúp tôi yên tâm về độ tươi ngon của quả, không bị dập hỏng do thịt quả mềm.
+**12.** Tôi cảm thấy yên tâm về độ tươi ngon của Kiwi đỏ khi đặt mua trên website/app và được giao trong vòng 2 giờ.
 
 **13.** Tôi thấy việc đặt online rồi nhận tại cửa hàng là tiện lợi, vì tôi có thể tự kiểm tra độ chín của quả.
 
-**14.** Tôi thấy dễ dàng mua Kiwi đỏ ngay sau khi xem thông tin trên mạng xã hội.
+**14.** Tôi thấy dễ dàng chuyển từ xem quảng cáo Kiwi đỏ trên mạng xã hội sang đặt mua trực tiếp trên ứng dụng hoặc mua tại siêu thị.
 
 ### Cảm nhận tính khan hiếm (KH)
 

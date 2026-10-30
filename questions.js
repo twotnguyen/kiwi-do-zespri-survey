@@ -4,7 +4,7 @@ const survey = {
   title: 'KHẢO SÁT CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN Ý ĐỊNH MUA SẮM ĐA KÊNH ĐỐI VỚI SẢN PHẨM KIWI ĐỎ TẠI TP. HỒ CHÍ MINH',
   introduction: [
     'Xin chào bạn!',
-    'Mình hiện đang thực hiện khóa luận tốt nghiệp với đề tài nghiên cứu về ý định mua sắm đa kênh đối với sản phẩm Kiwi đỏ (RubyRed) của nhãn hàng Zespri tại TP. Hồ Chí Minh. Khảo sát được thực hiện nhằm tìm hiểu nhận thức của người tiêu dùng về đặc tính sản phầm, trải nghiệm mua sắm đa kênh, cảm nhận về tính khan hiếm và ý định mua sản phẩm.',
+    'Mình hiện đang thực hiện khóa luận tốt nghiệp với đề tài nghiên cứu về ý định mua sắm đa kênh đối với sản phẩm Kiwi đỏ (RubyRed) của nhãn hàng Zespri tại TP. Hồ Chí Minh. Khảo sát được thực hiện nhằm tìm hiểu nhận thức của người tiêu dùng về đặc tính sản phẩm, trải nghiệm mua sắm đa kênh, cảm nhận về tính khan hiếm và ý định mua sản phẩm.',
     'Khảo sát chỉ phục vụ mục đích nghiên cứu học thuật. Các câu trả lời sẽ được tổng hợp và bảo mật, không sử dụng để xác định danh tính cá nhân. Rất mong bạn dành ít phút để hoàn thành bảng hỏi.',
     'Xin chân thành cảm ơn sự hỗ trợ của bạn!'
   ],
@@ -25,10 +25,10 @@ const survey = {
       { id: 'q8', text: 'Tôi cảm thấy an tâm vì Kiwi đỏ được lai tạo tự nhiên, không biến đổi gen.' },
       { id: 'q9', text: 'Kiwi đỏ có sắc tố tự nhiên Anthocyanin giúp chống oxy hóa và bảo vệ sức khỏe tim mạch là lý do thuyết phục tôi mua hàng.' },
       { id: 'q10', text: 'Hàm lượng Vitamin C tự nhiên trong Kiwi đỏ là khoảng 189 mg/ 100g phần thịt quả. Tôi đánh giá cao điều này.' },
-      { id: 'q11', group: 'Trải nghiệm Omnichannel (OC)', text: 'Tôi cảm thấy yên tâm khi giá và thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.' },
-      { id: 'q12', text: 'Giao hàng nhanh trong 2 giờ sẽ giúp tôi yên tâm về độ tươi ngon của quả, không bị dập hỏng do thịt quả mềm.' },
+      { id: 'q11', group: 'Trải nghiệm Omnichannel (OC)', text: 'Tôi cảm thấy yên tâm khi thông tin Kiwi đỏ trên website/app giống với chuỗi cửa hàng vật lý.' },
+      { id: 'q12', text: 'Tôi cảm thấy yên tâm về độ tươi ngon của Kiwi đỏ khi đặt mua trên website/app và được giao trong vòng 2 giờ.' },
       { id: 'q13', text: 'Tôi thấy việc đặt online rồi nhận tại cửa hàng là tiện lợi, vì tôi có thể tự kiểm tra độ chín của quả.' },
-      { id: 'q14', text: 'Tôi thấy dễ dàng mua Kiwi đỏ ngay sau khi xem thông tin trên mạng xã hội.' },
+      { id: 'q14', text: 'Tôi thấy dễ dàng chuyển từ xem quảng cáo Kiwi đỏ trên mạng xã hội sang đặt mua trực tiếp trên ứng dụng hoặc mua tại siêu thị.' },
       { id: 'q15', group: 'Cảm nhận tính khan hiếm (KH)', text: 'Kiwi đỏ chỉ có theo mùa, từ tháng 4 đến tháng 6, nên tôi muốn mua sớm.' },
       { id: 'q16', text: 'Vì Kiwi đỏ chỉ bán khoảng 8 tuần trên kệ, tôi muốn mua trước khi hết hàng.' },
       { id: 'q17', text: 'Kiwi đỏ được phân phối với số lượng có hạn, điều đó khiến tôi thấy sản phẩm đặc biệt hơn.' },
